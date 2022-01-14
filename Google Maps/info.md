@@ -6,9 +6,8 @@
 1. ➡️ Resource: /maps/api/place/add/json
 2. ➡️ Sample Body:
 
-'json'
-
-'''{
+'''json
+{
   "location": {
     "lat": -38.383494,
     "lng": 33.427362
@@ -23,5 +22,5 @@
   ],
   "website": "http://google.com",
   "language": "French-IN"
-}'''
-
+}
+'''
