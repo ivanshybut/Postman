@@ -11,9 +11,9 @@ pm.test("Status code is 200", function () {
 });
 ```
   Устанавливаем переменную в enviroment(переменная с каждым отправлнием запроса меняется).
-```json
-pm.test("Set variabe", function () {
-    var jsonData = pm.response.json();
+```
+pm.test("Set variabe", function ()```json {
+    var jsonData = pm.response.json();```
     console.log('This is out jsonData', jsonData.place_id)
     pm.environment.set("placeID", jsonData.place_id);
 });
